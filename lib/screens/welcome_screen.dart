@@ -68,7 +68,6 @@ class _WelcomeScreenState extends State<WelcomeScreen>
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             FadeInUpBig(
-              // from: 200,
               duration: const Duration(seconds: 1),
               child: Row(
                 children: <Widget>[
@@ -92,30 +91,10 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                       // boxHeight: 200.0,
                     ),
                   ),
-                  // DefaultTextStyle(
-                  //   style: const TextStyle(
-                  //     fontSize: 30.0,
-                  //     fontWeight: FontWeight.w900,
-                  //     color: Colors.black,
-                  //   ),
-                  //   child: AnimatedTextKit(
-                  //     totalRepeatCount: 2,
-                  //     animatedTexts: [
-                  //       WavyAnimatedText(
-                  //         'Flash Chat',
-                  //         speed: const Duration(milliseconds: 120),
-                  //       ),
-                  //     ],
-                  //   ),
-                  // ),
                 ],
               ),
             ),
-            const SizedBox(
-              height: 50.0,
-            ),
             FadeInUpBig(
-              // from: 200,
               duration: const Duration(seconds: 1),
               child: RoundedButton(
                 text: 'Log In',
@@ -127,7 +106,6 @@ class _WelcomeScreenState extends State<WelcomeScreen>
               ),
             ),
             FadeInUpBig(
-              // from: 200,
               duration: const Duration(seconds: 1),
               child: RoundedButton(
                 text: 'Register',
